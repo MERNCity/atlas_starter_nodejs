@@ -87,6 +87,8 @@ Assuming you have the correct connection string, you have now connected
 the Node app to your MongoDB Atlas datastore.
 Have fun modifying the code to experiment with the Node driver and MongoDB.
 
+![image](https://github.com/MERNCity/atlas_starter_nodejs/assets/126258837/c7fb328b-1f86-4f9a-b389-aaf6f6433d81)
+
 ## Troubleshooting
 
 Are you having trouble getting connected to your MongoDB Atlas instance? Double-check the following:
