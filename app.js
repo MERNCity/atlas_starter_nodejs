@@ -1,4 +1,4 @@
-const { MongoClient } = require("mongodb");
+const MongoClient = require('mongodb').MongoClient;
 
 async function run() {
   // TODO:
@@ -15,7 +15,7 @@ async function run() {
 
   // The MongoClient is the object that references the connection to our
   // datastore (Atlas, for example)
-  const client = new MongoClient(uri);
+  const client = new MongoClient(uri, { useUnifiedTopology: true });
 
   // The connect() method does not attempt a connection; instead it instructs
   // the driver to connect using the settings provided when a connection
